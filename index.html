@@ -537,6 +537,68 @@
             </ul>
           </div>
 
+          <style>
+            /* General styling for the project list */
+            .project-list {
+              list-style: none;
+              padding: 0;
+              margin: 0;
+            }
+        
+            .project-item {
+              margin-bottom: 20px;
+            }
+        
+            /* Image styling */
+            .project-img {
+              position: relative;
+              overflow: hidden;
+            }
+        
+            .project-image {
+              display: block;
+              width: 100%;
+              transition: transform 0.3s ease, box-shadow 0.3s ease;
+            }
+        
+            /* Image hover effect */
+            .project-image:hover {
+              transform: scale(1.05);
+              box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            }
+        
+            /* Button styling */
+            .btn-contact {
+              display: inline-flex;
+              align-items: center;
+              padding: 12px 20px;
+              font-size: 16px;
+              font-weight: bold;
+              color: white;
+              background-color: #25d366;
+              border: none;
+              border-radius: 25px; /* Rounded corners */
+              text-align: center;
+              text-decoration: none;
+              transition: background-color 0.3s ease, transform 0.3s ease;
+              box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            }
+        
+            /* Button hover effects */
+            .btn-contact:hover {
+              background-color: #1ebe57;
+              transform: translateY(-3px);
+              box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+            }
+        
+            /* Button active effects */
+            .btn-contact:active {
+              transform: translateY(0);
+              box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            }
+          </style>
+        </head>
+        <body>
           <ul class="project-list">
             <li class="project-item active" data-filter-item data-category="tes1">
               <a href="#">
