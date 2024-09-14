@@ -492,37 +492,34 @@
               <button class="active" data-filter-btn>All</button>
             </li>
             <li class="filter-item">
-              <button data-filter-btn>☆ BotWhatsapp</button>
+              <button data-filter-btn>BotWhatsapp</button> <!-- Removed ☆ -->
             </li>
             <li class="filter-item">
               <button data-filter-btn>tes2</button>
             </li>
           </ul>
-
+      
           <div class="filter-select-box">
             <button class="filter-select" data-select>
-              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-value" data-select-value>Select category</div>
               <div class="select-icon">
                 <ion-icon name="chevron-down"></ion-icon>
               </div>
             </button>
-
+      
             <ul class="select-list">
               <li class="select-item">
                 <button data-select-item>All</button>
               </li>
               <li class="select-item">
-                <button data-select-item>☆ BotWhatsapp</button>
+                <button data-select-item>BotWhatsapp</button> <!-- Removed ☆ -->
               </li>
               <li class="select-item">
                 <button data-select-item>tes2</button>
               </li>
-              <!-- <li class="select-item">
-                <button data-select-item>Animal Photography</button>
-              </li> -->
             </ul>
           </div>
-
+      
           <style>
             /* General styling for the project list */
             .project-list {
@@ -530,29 +527,29 @@
               padding: 0;
               margin: 0;
             }
-        
+      
             .project-item {
               margin-bottom: 20px;
             }
-        
+      
             /* Image styling */
             .project-img {
               position: relative;
               overflow: hidden;
             }
-        
+      
             .project-image {
               display: block;
               width: 100%;
               transition: transform 0.3s ease, box-shadow 0.3s ease;
             }
-        
+      
             /* Image hover effect */
             .project-image:hover {
               transform: scale(1.05);
               box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
             }
-        
+      
             /* Button styling */
             .btn-contact {
               display: inline-flex;
@@ -569,30 +566,31 @@
               transition: background-color 0.3s ease, transform 0.3s ease;
               box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
             }
-        
+      
             /* Button icon and text alignment */
             .btn-contact ion-icon {
               font-size: 20px;
               margin-right: 8px; /* Space between icon and text */
             }
-        
+      
             /* Button hover effects */
             .btn-contact:hover {
               background-color: #555; /* Slightly lighter dark color */
               transform: translateY(-3px);
               box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
             }
-        
+      
             /* Button active effects */
             .btn-contact:active {
               transform: translateY(0);
               box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
             }
           </style>
-        </head>
+        </section>
+      
         <body>
           <ul class="project-list">
-            <li class="project-item active" data-filter-item data-category="☆ BotWhatsapp">
+            <li class="project-item active" data-filter-item data-category="BotWhatsapp"> <!-- Removed ☆ -->
               <a href="#">
                 <figure class="project-img">
                   <img src="https://telegra.ph/file/b365817c2a90760f63523.jpg" alt="l3dc" loading="lazy" class="project-image" />
@@ -601,13 +599,13 @@
                 <p class="project-category">RM10.00</p>
               </a>
               <div class="project-button">
-                <a href="https://wa.me/601169466091?text=Hai put nak beli bot whatsapp (1 Bulan)" class="btn btn-contact" target="_blank">
+                <a href="https://wa.me/601169466091?text=Hai%20put%20nak%20beli%20bot%20whatsapp%20(1%20Bulan)" class="btn btn-contact" target="_blank">
                   <ion-icon name="cart-outline"></ion-icon>
                   <span>Buy Now</span>
                 </a>
               </div>
             </li>
-          </ul>
+          </ul>      
                
 
           <ul class="project-list">
